@@ -1,0 +1,4 @@
+com\rakib\model\Category.class
+com\rakib\controller\StockManager.class
+com\rakib\util\NewHibernateUtil.class
+com\rakib\model\Product.class
