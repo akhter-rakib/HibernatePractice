@@ -1,3 +1,5 @@
+package com.rakib.controller;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -21,7 +23,7 @@ public class StockManager {
 
     public static void main(String[] args) {
         
-        //run this class only 
+        //Run this class only 
         Session session = NewHibernateUtil.getSessionFactory().openSession();
         session.beginTransaction();
         Category category = new Category("Computer");

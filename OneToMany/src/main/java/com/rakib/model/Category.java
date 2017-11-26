@@ -57,8 +57,8 @@ public class Category {
         return products;
     }
 //    Here, the mappedBy attribute is mandatory, as it specifies that the one-to-many 
-//     association is mapped by this side (Category); and the cascade attribute 
-//     make sure Hibernate will save/update the products set when saving/updating this category.
+//    association is mapped by this side (Category); and the cascade attribute 
+//    make sure Hibernate will save/update the products set when saving/updating this category.
 
     public void setProducts(Set<Product> products) {
         this.products = products;
